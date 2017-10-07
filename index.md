@@ -9,3 +9,9 @@ unevariable_custom: "pweeeeeeeeeeeeet"
 Coucou, tu veux voir mon site statique ?
 
 {{ site.unevariable_custom }}
+
+<ul>
+{% for page in site.pages %}
+<li><a href="#">{{ page.title }}</a></li>
+{% end for %}
+</ul>
