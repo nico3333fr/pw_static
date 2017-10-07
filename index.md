@@ -13,5 +13,5 @@ Coucou, tu veux voir mon site statique ?
 <ul>
 {% for page in site.pages %}
 <li><a href="#">{{ page.title }}</a></li>
-{% end for %}
+{% endfor %}
 </ul>
