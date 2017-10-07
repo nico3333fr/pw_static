@@ -11,7 +11,7 @@ Coucou, tu veux voir mon site statique ?
 {{ site.unevariable_custom }}
 
 <ul>
-{% for page in site.pages %}
-<li><a href="#">{{ page.title }}</a></li>
+{% for page in site.html_pages %}
+<li><a href="{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
 </ul>
