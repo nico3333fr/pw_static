@@ -12,6 +12,6 @@ Coucou, tu veux voir mon site statique ?
 
 <ul>
 {% for page in site.html_pages %}
-<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+<li><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
 </ul>
